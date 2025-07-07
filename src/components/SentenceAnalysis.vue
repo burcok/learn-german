@@ -1,7 +1,7 @@
 <template>
   <div class="card bg-white dark:bg-gray-800 rounded-xl shadow p-6 flex flex-col gap-2">
     <h2 class="text-lg font-semibold text-blue-700 dark:text-yellow-400 mb-2">Cümle Analizi</h2>
-    <div v-if="!analyzeIt">
+    <div v-if="!analyzeIt && (result || error)">
       <div class="mb-2">
         <button @click="triggerAnalyze" class="w-[200px] py-3 rounded-xl bg-blue-700 text-white font-semibold">Analiz Et</button>
       </div>
