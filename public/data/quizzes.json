@@ -1,0 +1,37 @@
+[
+  {
+    "date": "2025-07-01",
+    "questions": [
+      { "question": "‘das Haus' ne anlama gelir?", "options": ["ev", "araba", "masa", "kitap"], "answer": "ev" },
+      { "question": "‘Alles in Butter' deyimi neyi ifade eder?", "options": ["Her şey yolunda", "Her şey kötü", "Çok sıcak", "Çok pahalı"], "answer": "Her şey yolunda" }
+    ]
+  },
+  {
+    "date": "2025-07-02",
+    "questions": [
+      { "question": "‘die Katze' ne anlama gelir?", "options": ["köpek", "kedi", "kuş", "balık"], "answer": "kedi" },
+      { "question": "‘Tomaten auf den Augen haben' deyimi neyi ifade eder?", "options": ["Bir şeyi görememek", "Çok mutlu olmak", "Çok çalışmak", "Yorgun olmak"], "answer": "Bir şeyi görememek" }
+    ]
+  },
+  {
+    "date": "2025-07-03",
+    "questions": [
+      { "question": "‘der Tisch' ne anlama gelir?", "options": ["masa", "sandalye", "kapı", "pencere"], "answer": "masa" },
+      { "question": "‘Jemandem die Daumen drücken' deyimi neyi ifade eder?", "options": ["Şans dilemek", "Kızmak", "Yemek yemek", "Uyumak"], "answer": "Şans dilemek" }
+    ]
+  },
+  {
+    "date": "2025-07-04",
+    "questions": [
+      { "question": "‘das Buch' ne anlama gelir?", "options": ["kitap", "defter", "kalem", "çanta"], "answer": "kitap" },
+      { "question": "‘Ins Gras beißen' deyimi neyi ifade eder?", "options": ["Ölmek", "Yemek yemek", "Çalışmak", "Gülmek"], "answer": "Ölmek" }
+    ]
+  },
+  {
+    "date": "2025-07-05",
+    "questions": [
+      { "question": "‘die Straße' ne anlama gelir?", "options": ["ev", "cadde", "masa", "saat"], "answer": "cadde" },
+      { "question": "‘Da liegt der Hund begraben' deyimi neyi ifade eder?", "options": ["Köpek çok yaşlı", "Burada bir sorun var", "Mutlu haber", "Hiçbir şey"], "answer": "Burada bir sorun var" }
+    ]
+  }
+] 

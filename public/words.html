@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kelime Arşivi - Almanca Öğren</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/logo.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <img src="assets/logo.svg" alt="Logo" class="logo" />
+      <h1>Almanca Öğren</h1>
+    </header>
+    <main class="main-grid">
+      <section class="card">
+        <h2>Kelime Arşivi</h2>
+        <input type="text" id="word-search" placeholder="Kelime ara..." />
+        <select id="level-filter">
+          <option value="">Seviye (Tümü)</option>
+          <option value="A1">A1</option>
+          <option value="A2">A2</option>
+          <option value="B1">B1</option>
+        </select>
+        <div id="words-list"></div>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <a href="index.html">Ana Sayfa</a> |
+        <a href="idioms.html">Deyim Arşivi</a> |
+        <a href="quiz.html">Quiz</a>
+      </nav>
+      <p>&copy; 2025 Almanca Öğren</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

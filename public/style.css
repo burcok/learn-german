@@ -1,0 +1,190 @@
+/* Google Fonts: Inter is loaded via HTML */
+:root {
+  --color-bg: #f7fafc;
+  --color-bg-dark: #23272f;
+  --color-card: #fff;
+  --color-card-dark: #2d3748;
+  --color-primary: #3b82f6;
+  --color-accent: #f7c948;
+  --color-text: #2d3a4a;
+  --color-text-dark: #f7fafc;
+  --color-success: #22c55e;
+  --color-error: #ef4444;
+  --gap: 1.5rem;
+  --radius: 1rem;
+  --shadow: 0 2px 12px rgba(44,62,80,0.07);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: var(--color-bg-dark);
+    --color-card: var(--color-card-dark);
+    --color-text: var(--color-text-dark);
+  }
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 1rem 1rem 1rem;
+  background: var(--color-card);
+  box-shadow: var(--shadow);
+}
+.logo {
+  width: 40px;
+  height: 40px;
+}
+h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 0;
+}
+.main-grid {
+  display: grid;
+  gap: var(--gap);
+  grid-template-columns: 1fr;
+  padding: 1.5rem 1rem;
+  flex: 1;
+}
+@media (min-width: 600px) {
+  .main-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 900px) {
+  .main-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.card {
+  background: var(--color-card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: var(--gap);
+}
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: var(--color-primary);
+}
+.primary-btn {
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 1rem 0 0 0;
+  transition: background 0.2s;
+}
+.primary-btn:hover {
+  background: #2563eb;
+}
+input[type="text"], select {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: var(--radius);
+  border: 1px solid #d1d5db;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+#words-list, #idioms-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.word-item, .idiom-item {
+  background: var(--color-bg);
+  border-radius: var(--radius);
+  padding: 1rem;
+  box-shadow: 0 1px 4px rgba(44,62,80,0.04);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.word-german, .idiom-german {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--color-primary);
+}
+.word-meaning, .idiom-meaning {
+  font-size: 1rem;
+  color: var(--color-text);
+}
+.word-example, .idiom-example {
+  font-size: 0.95rem;
+  color: #64748b;
+  font-style: italic;
+}
+.quiz-option {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: var(--radius);
+  border: 1.5px solid #d1d5db;
+  background: #f9fafb;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: border 0.2s, background 0.2s;
+}
+.quiz-option.correct {
+  border-color: var(--color-success);
+  background: #e6f9ed;
+}
+.quiz-option.incorrect {
+  border-color: var(--color-error);
+  background: #fee2e2;
+}
+#quiz-score {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  color: var(--color-primary);
+}
+footer {
+  background: var(--color-card);
+  text-align: center;
+  padding: 1rem 0 0.5rem 0;
+  font-size: 0.95rem;
+  color: #64748b;
+  margin-top: auto;
+}
+footer nav {
+  margin-bottom: 0.5rem;
+}
+footer a {
+  color: var(--color-primary);
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-weight: 500;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 4px;
+} 

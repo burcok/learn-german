@@ -1,0 +1,334 @@
+[
+  {
+    "date": "2025-07-01",
+    "word": { "german": "das Haus", "meaning": "ev", "example": "Das Haus ist groß.", "level": "A1" },
+    "idiom": { "german": "Alles in Butter", "meaning": "Her şey yolunda", "example": "Nach dem Gespräch war alles in Butter." },
+    "quiz": [
+      { "question": "‘das Haus’ ne anlama gelir?", "options": ["ev", "araba", "masa", "kitap"], "answer": "ev" },
+      { "question": "‘Alles in Butter’ deyimi neyi ifade eder?", "options": ["Her şey yolunda", "Her şey kötü", "Çok sıcak", "Çok pahalı"], "answer": "Her şey yolunda" }
+    ]
+  },
+  {
+    "date": "2025-07-02",
+    "word": { "german": "die Katze", "meaning": "kedi", "example": "Die Katze schläft auf dem Sofa.", "level": "A1" },
+    "idiom": { "german": "Tomaten auf den Augen haben", "meaning": "Bir şeyi görememek", "example": "Hast du Tomaten auf den Augen?" },
+    "quiz": [
+      { "question": "‘die Katze’ ne anlama gelir?", "options": ["köpek", "kedi", "kuş", "balık"], "answer": "kedi" },
+      { "question": "‘Tomaten auf den Augen haben’ deyimi neyi ifade eder?", "options": ["Bir şeyi görememek", "Çok mutlu olmak", "Çok çalışmak", "Yorgun olmak"], "answer": "Bir şeyi görememek" }
+    ]
+  },
+  {
+    "date": "2025-07-03",
+    "word": { "german": "der Tisch", "meaning": "masa", "example": "Der Tisch ist aus Holz.", "level": "A1" },
+    "idiom": { "german": "Jemandem die Daumen drücken", "meaning": "Şans dilemek", "example": "Ich drücke dir die Daumen!" },
+    "quiz": [
+      { "question": "‘der Tisch’ ne anlama gelir?", "options": ["masa", "sandalye", "kapı", "pencere"], "answer": "masa" },
+      { "question": "‘Jemandem die Daumen drücken’ deyimi neyi ifade eder?", "options": ["Şans dilemek", "Kızmak", "Yemek yemek", "Uyumak"], "answer": "Şans dilemek" }
+    ]
+  },
+  {
+    "date": "2025-07-04",
+    "word": { "german": "das Buch", "meaning": "kitap", "example": "Ich lese ein Buch.", "level": "A1" },
+    "idiom": { "german": "Ins Gras beißen", "meaning": "Ölmek (deyimsel)", "example": "Er hat ins Gras gebissen." },
+    "quiz": [
+      { "question": "‘das Buch’ ne anlama gelir?", "options": ["kitap", "defter", "kalem", "çanta"], "answer": "kitap" },
+      { "question": "‘Ins Gras beißen’ deyimi neyi ifade eder?", "options": ["Ölmek", "Yemek yemek", "Çalışmak", "Gülmek"], "answer": "Ölmek" }
+    ]
+  },
+  {
+    "date": "2025-07-05",
+    "word": { "german": "die Straße", "meaning": "cadde, sokak", "example": "Ich gehe auf die Straße.", "level": "A1" },
+    "idiom": { "german": "Da liegt der Hund begraben", "meaning": "İşte sorun burada!", "example": "Da liegt der Hund begraben – tam olarak nedenini bu oluşturuyor." },
+    "quiz": [
+      { "question": "‘die Straße’ ne anlama gelir?", "options": ["ev", "cadde", "masa", "saat"], "answer": "cadde" },
+      { "question": "‘Da liegt der Hund begraben’ deyimi neyi ifade eder?", "options": ["Köpek çok yaşlı", "Burada bir sorun var", "Mutlu haber", "Hiçbir şey"], "answer": "Burada bir sorun var" }
+    ]
+  },
+  {
+    "date": "2025-07-06",
+    "word": { "german": "das Auto", "meaning": "araba", "example": "Das Auto fährt schnell.", "level": "A1" },
+    "idiom": { "german": "Ein Baum ist ein Baum", "meaning": "Her şey aynı", "example": "Ein Baum ist ein Baum – das ist wirklich nichts Neues." },
+    "quiz": [
+      { "question": "‘das Auto’ ne anlama gelir?", "options": ["araba", "ev", "masa", "kitap"], "answer": "araba" },
+      { "question": "‘Ein Baum ist ein Baum’ deyimi neyi ifade eder?", "options": ["Her şey aynı", "Her şey farklı", "Çok sıcak", "Çok pahalı"], "answer": "Her şey aynı" }
+    ]
+  },
+  {
+    "date": "2025-07-07",
+    "word": { "german": "die Frau", "meaning": "kadın", "example": "Die Frau ist intelligent.", "level": "A1" },
+    "idiom": { "german": "Ein Apfel ist ein Apfel", "meaning": "Her şey aynı", "example": "Ein Apfel ist ein Apfel – das ist wirklich nichts Neues." },
+    "quiz": [
+      { "question": "‘die Frau’ ne anlama gelir?", "options": ["kadın", "erkek", "kuş", "balık"], "answer": "kadın" },
+      { "question": "‘Ein Apfel ist ein Apfel’ deyimi neyi ifade eder?", "options": ["Her şey aynı", "Her şey farklı", "Çok sıcak", "Çok pahalı"], "answer": "Her şey aynı" }
+    ]
+  },
+  {
+    "date": "2025-07-08",
+    "word": { "german": "der Mann", "meaning": "erkek", "example": "Der Mann ist stark.", "level": "A1" },
+    "idiom": { "german": "Ein Apfel ist ein Apfel", "meaning": "Her şey aynı", "example": "Ein Apfel ist ein Apfel – das ist wirklich nichts Neues." },
+    "quiz": [
+      { "question": "‘der Mann’ ne anlama gelir?", "options": ["erkek", "kadın", "kuş", "balık"], "answer": "erkek" },
+      { "question": "‘Ein Apfel ist ein Apfel’ deyimi neyi ifade eder?", "options": ["Her şey aynı", "Her şey farklı", "Çok sıcak", "Çok pahalı"], "answer": "Her şey aynı" }
+    ]
+  },
+  {
+    "date": "2025-07-09",
+    "word": { "german": "die Katze", "meaning": "kedi", "example": "Die Katze schläft auf dem Sofa.", "level": "A1" },
+    "idiom": { "german": "Tomaten auf den Augen haben", "meaning": "Bir şeyi görememek", "example": "Hast du Tomaten auf den Augen?" },
+    "quiz": [
+      { "question": "‘die Katze’ ne anlama gelir?", "options": ["köpek", "kedi", "kuş", "balık"], "answer": "kedi" },
+      { "question": "‘Tomaten auf den Augen haben’ deyimi neyi ifade eder?", "options": ["Bir şeyi görememek", "Çok mutlu olmak", "Çok çalışmak", "Yorgun olmak"], "answer": "Bir şeyi görememek" }
+    ]
+  },
+  {
+    "date": "2025-07-10",
+    "word": { "german": "der Tisch", "meaning": "masa", "example": "Der Tisch ist aus Holz.", "level": "A1" },
+    "idiom": { "german": "Jemandem die Daumen drücken", "meaning": "Şans dilemek", "example": "Ich drücke dir die Daumen!" },
+    "quiz": [
+      { "question": "‘der Tisch’ ne anlama gelir?", "options": ["masa", "sandalye", "kapı", "pencere"], "answer": "masa" },
+      { "question": "‘Jemandem die Daumen drücken’ deyimi neyi ifade eder?", "options": ["Şans dilemek", "Kızmak", "Yemek yemek", "Uyumak"], "answer": "Şans dilemek" }
+    ]
+  },
+  {
+    "date": "2025-07-11",
+    "word": { "german": "das Buch", "meaning": "kitap", "example": "Ich lese ein Buch.", "level": "A1" },
+    "idiom": { "german": "Ins Gras beißen", "meaning": "Ölmek (deyimsel)", "example": "Er hat ins Gras gebissen." },
+    "quiz": [
+      { "question": "‘das Buch’ ne anlama gelir?", "options": ["kitap", "defter", "kalem", "çanta"], "answer": "kitap" },
+      { "question": "‘Ins Gras beißen’ deyimi neyi ifade eder?", "options": ["Ölmek", "Yemek yemek", "Çalışmak", "Gülmek"], "answer": "Ölmek" }
+    ]
+  },
+  {
+    "date": "2025-07-12",
+    "word": { "german": "die Straße", "meaning": "cadde, sokak", "example": "Ich gehe auf die Straße.", "level": "A1" },
+    "idiom": { "german": "Da liegt der Hund begraben", "meaning": "İşte sorun burada!", "example": "Da liegt der Hund begraben – tam olarak nedenini bu oluşturuyor." },
+    "quiz": [
+      { "question": "‘die Straße’ ne anlama gelir?", "options": ["ev", "cadde", "masa", "saat"], "answer": "cadde" },
+      { "question": "‘Da liegt der Hund begraben’ deyimi neyi ifade eder?", "options": ["Köpek çok yaşlı", "Burada bir sorun var", "Mutlu haber", "Hiçbir şey"], "answer": "Burada bir sorun var" }
+    ]
+  },
+  {
+    "date": "2025-07-13",
+    "word": { "german": "das Auto", "meaning": "araba", "example": "Das Auto fährt schnell.", "level": "A1" },
+    "idiom": { "german": "Ein Baum ist ein Baum", "meaning": "Her şey aynı", "example": "Ein Baum ist ein Baum – das ist wirklich nichts Neues." },
+    "quiz": [
+      { "question": "‘das Auto’ ne anlama gelir?", "options": ["araba", "ev", "masa", "kitap"], "answer": "araba" },
+      { "question": "‘Ein Baum ist ein Baum’ deyimi neyi ifade eder?", "options": ["Her şey aynı", "Her şey farklı", "Çok sıcak", "Çok pahalı"], "answer": "Her şey aynı" }
+    ]
+  },
+  {
+    "date": "2025-07-14",
+    "word": { "german": "die Frau", "meaning": "kadın", "example": "Die Frau ist intelligent.", "level": "A1" },
+    "idiom": { "german": "Ein Apfel ist ein Apfel", "meaning": "Her şey aynı", "example": "Ein Apfel ist ein Apfel – das ist wirklich nichts Neues." },
+    "quiz": [
+      { "question": "‘die Frau’ ne anlama gelir?", "options": ["kadın", "erkek", "kuş", "balık"], "answer": "kadın" },
+      { "question": "‘Ein Apfel ist ein Apfel’ deyimi neyi ifade eder?", "options": ["Her şey aynı", "Her şey farklı", "Çok sıcak", "Çok pahalı"], "answer": "Her şey aynı" }
+    ]
+  },
+  {
+    "date": "2025-07-15",
+    "word": { "german": "der Mann", "meaning": "erkek", "example": "Der Mann ist stark.", "level": "A1" },
+    "idiom": { "german": "Ein Apfel ist ein Apfel", "meaning": "Her şey aynı", "example": "Ein Apfel ist ein Apfel – das ist wirklich nichts Neues." },
+    "quiz": [
+      { "question": "‘der Mann’ ne anlama gelir?", "options": ["erkek", "kadın", "kuş", "balık"], "answer": "erkek" },
+      { "question": "‘Ein Apfel ist ein Apfel’ deyimi neyi ifade eder?", "options": ["Her şey aynı", "Her şey farklı", "Çok sıcak", "Çok pahalı"], "answer": "Her şey aynı" }
+    ]
+  },
+  {
+    "date": "2025-07-16",
+    "word": { "german": "die Katze", "meaning": "kedi", "example": "Die Katze schläft auf dem Sofa.", "level": "A1" },
+    "idiom": { "german": "Tomaten auf den Augen haben", "meaning": "Bir şeyi görememek", "example": "Hast du Tomaten auf den Augen?" },
+    "quiz": [
+      { "question": "‘die Katze’ ne anlama gelir?", "options": ["köpek", "kedi", "kuş", "balık"], "answer": "kedi" },
+      { "question": "‘Tomaten auf den Augen haben’ deyimi neyi ifade eder?", "options": ["Bir şeyi görememek", "Çok mutlu olmak", "Çok çalışmak", "Yorgun olmak"], "answer": "Bir şeyi görememek" }
+    ]
+  },
+  {
+    "date": "2025-07-17",
+    "word": { "german": "der Tisch", "meaning": "masa", "example": "Der Tisch ist aus Holz.", "level": "A1" },
+    "idiom": { "german": "Jemandem die Daumen drücken", "meaning": "Şans dilemek", "example": "Ich drücke dir die Daumen!" },
+    "quiz": [
+      { "question": "‘der Tisch’ ne anlama gelir?", "options": ["masa", "sandalye", "kapı", "pencere"], "answer": "masa" },
+      { "question": "‘Jemandem die Daumen drücken’ deyimi neyi ifade eder?", "options": ["Şans dilemek", "Kızmak", "Yemek yemek", "Uyumak"], "answer": "Şans dilemek" }
+    ]
+  },
+  {
+    "date": "2025-07-18",
+    "word": { "german": "das Buch", "meaning": "kitap", "example": "Ich lese ein Buch.", "level": "A1" },
+    "idiom": { "german": "Ins Gras beißen", "meaning": "Ölmek (deyimsel)", "example": "Er hat ins Gras gebissen." },
+    "quiz": [
+      { "question": "‘das Buch’ ne anlama gelir?", "options": ["kitap", "defter", "kalem", "çanta"], "answer": "kitap" },
+      { "question": "‘Ins Gras beißen’ deyimi neyi ifade eder?", "options": ["Ölmek", "Yemek yemek", "Çalışmak", "Gülmek"], "answer": "Ölmek" }
+    ]
+  },
+  {
+    "date": "2025-07-19",
+    "word": { "german": "die Straße", "meaning": "cadde, sokak", "example": "Ich gehe auf die Straße.", "level": "A1" },
+    "idiom": { "german": "Da liegt der Hund begraben", "meaning": "İşte sorun burada!", "example": "Da liegt der Hund begraben – tam olarak nedenini bu oluşturuyor." },
+    "quiz": [
+      { "question": "‘die Straße’ ne anlama gelir?", "options": ["ev", "cadde", "masa", "saat"], "answer": "cadde" },
+      { "question": "‘Da liegt der Hund begraben’ deyimi neyi ifade eder?", "options": ["Köpek çok yaşlı", "Burada bir sorun var", "Mutlu haber", "Hiçbir şey"], "answer": "Burada bir sorun var" }
+    ]
+  },
+  {
+    "date": "2025-07-20",
+    "word": { "german": "das Auto", "meaning": "araba", "example": "Das Auto fährt schnell.", "level": "A1" },
+    "idiom": { "german": "Ein Baum ist ein Baum", "meaning": "Her şey aynı", "example": "Ein Baum ist ein Baum – das ist wirklich nichts Neues." },
+    "quiz": [
+      { "question": "‘das Auto’ ne anlama gelir?", "options": ["araba", "ev", "masa", "kitap"], "answer": "araba" },
+      { "question": "‘Ein Baum ist ein Baum’ deyimi neyi ifade eder?", "options": ["Her şey aynı", "Her şey farklı", "Çok sıcak", "Çok pahalı"], "answer": "Her şey aynı" }
+    ]
+  },
+  {
+    "date": "2025-07-21",
+    "word": { "german": "die Frau", "meaning": "kadın", "example": "Die Frau ist intelligent.", "level": "A1" },
+    "idiom": { "german": "Ein Apfel ist ein Apfel", "meaning": "Her şey aynı", "example": "Ein Apfel ist ein Apfel – das ist wirklich nichts Neues." },
+    "quiz": [
+      { "question": "‘die Frau’ ne anlama gelir?", "options": ["kadın", "erkek", "kuş", "balık"], "answer": "kadın" },
+      { "question": "‘Ein Apfel ist ein Apfel’ deyimi neyi ifade eder?", "options": ["Her şey aynı", "Her şey farklı", "Çok sıcak", "Çok pahalı"], "answer": "Her şey aynı" }
+    ]
+  },
+  {
+    "date": "2025-07-22",
+    "word": { "german": "der Mann", "meaning": "erkek", "example": "Der Mann ist stark.", "level": "A1" },
+    "idiom": { "german": "Ein Apfel ist ein Apfel", "meaning": "Her şey aynı", "example": "Ein Apfel ist ein Apfel – das ist wirklich nichts Neues." },
+    "quiz": [
+      { "question": "‘der Mann’ ne anlama gelir?", "options": ["erkek", "kadın", "kuş", "balık"], "answer": "erkek" },
+      { "question": "‘Ein Apfel ist ein Apfel’ deyimi neyi ifade eder?", "options": ["Her şey aynı", "Her şey farklı", "Çok sıcak", "Çok pahalı"], "answer": "Her şey aynı" }
+    ]
+  },
+  {
+    "date": "2025-07-23",
+    "word": { "german": "die Katze", "meaning": "kedi", "example": "Die Katze schläft auf dem Sofa.", "level": "A1" },
+    "idiom": { "german": "Tomaten auf den Augen haben", "meaning": "Bir şeyi görememek", "example": "Hast du Tomaten auf den Augen?" },
+    "quiz": [
+      { "question": "‘die Katze’ ne anlama gelir?", "options": ["köpek", "kedi", "kuş", "balık"], "answer": "kedi" },
+      { "question": "‘Tomaten auf den Augen haben’ deyimi neyi ifade eder?", "options": ["Bir şeyi görememek", "Çok mutlu olmak", "Çok çalışmak", "Yorgun olmak"], "answer": "Bir şeyi görememek" }
+    ]
+  },
+  {
+    "date": "2025-07-24",
+    "word": { "german": "der Tisch", "meaning": "masa", "example": "Der Tisch ist aus Holz.", "level": "A1" },
+    "idiom": { "german": "Jemandem die Daumen drücken", "meaning": "Şans dilemek", "example": "Ich drücke dir die Daumen!" },
+    "quiz": [
+      { "question": "‘der Tisch’ ne anlama gelir?", "options": ["masa", "sandalye", "kapı", "pencere"], "answer": "masa" },
+      { "question": "‘Jemandem die Daumen drücken’ deyimi neyi ifade eder?", "options": ["Şans dilemek", "Kızmak", "Yemek yemek", "Uyumak"], "answer": "Şans dilemek" }
+    ]
+  },
+  {
+    "date": "2025-07-25",
+    "word": { "german": "das Buch", "meaning": "kitap", "example": "Ich lese ein Buch.", "level": "A1" },
+    "idiom": { "german": "Ins Gras beißen", "meaning": "Ölmek (deyimsel)", "example": "Er hat ins Gras gebissen." },
+    "quiz": [
+      { "question": "‘das Buch’ ne anlama gelir?", "options": ["kitap", "defter", "kalem", "çanta"], "answer": "kitap" },
+      { "question": "‘Ins Gras beißen’ deyimi neyi ifade eder?", "options": ["Ölmek", "Yemek yemek", "Çalışmak", "Gülmek"], "answer": "Ölmek" }
+    ]
+  },
+  {
+    "date": "2025-07-26",
+    "word": { "german": "die Straße", "meaning": "cadde, sokak", "example": "Ich gehe auf die Straße.", "level": "A1" },
+    "idiom": { "german": "Da liegt der Hund begraben", "meaning": "İşte sorun burada!", "example": "Da liegt der Hund begraben – tam olarak nedenini bu oluşturuyor." },
+    "quiz": [
+      { "question": "‘die Straße’ ne anlama gelir?", "options": ["ev", "cadde", "masa", "saat"], "answer": "cadde" },
+      { "question": "‘Da liegt der Hund begraben’ deyimi neyi ifade eder?", "options": ["Köpek çok yaşlı", "Burada bir sorun var", "Mutlu haber", "Hiçbir şey"], "answer": "Burada bir sorun var" }
+    ]
+  },
+  {
+    "date": "2025-07-27",
+    "word": { "german": "das Auto", "meaning": "araba", "example": "Das Auto fährt schnell.", "level": "A1" },
+    "idiom": { "german": "Ein Baum ist ein Baum", "meaning": "Her şey aynı", "example": "Ein Baum ist ein Baum – das ist wirklich nichts Neues." },
+    "quiz": [
+      { "question": "‘das Auto’ ne anlama gelir?", "options": ["araba", "ev", "masa", "kitap"], "answer": "araba" },
+      { "question": "‘Ein Baum ist ein Baum’ deyimi neyi ifade eder?", "options": ["Her şey aynı", "Her şey farklı", "Çok sıcak", "Çok pahalı"], "answer": "Her şey aynı" }
+    ]
+  },
+  {
+    "date": "2025-07-28",
+    "word": { "german": "die Frau", "meaning": "kadın", "example": "Die Frau ist intelligent.", "level": "A1" },
+    "idiom": { "german": "Ein Apfel ist ein Apfel", "meaning": "Her şey aynı", "example": "Ein Apfel ist ein Apfel – das ist wirklich nichts Neues." },
+    "quiz": [
+      { "question": "‘die Frau’ ne anlama gelir?", "options": ["kadın", "erkek", "kuş", "balık"], "answer": "kadın" },
+      { "question": "‘Ein Apfel ist ein Apfel’ deyimi neyi ifade eder?", "options": ["Her şey aynı", "Her şey farklı", "Çok sıcak", "Çok pahalı"], "answer": "Her şey aynı" }
+    ]
+  },
+  {
+    "date": "2025-07-29",
+    "word": { "german": "der Mann", "meaning": "erkek", "example": "Der Mann ist stark.", "level": "A1" },
+    "idiom": { "german": "Ein Apfel ist ein Apfel", "meaning": "Her şey aynı", "example": "Ein Apfel ist ein Apfel – das ist wirklich nichts Neues." },
+    "quiz": [
+      { "question": "‘der Mann’ ne anlama gelir?", "options": ["erkek", "kadın", "kuş", "balık"], "answer": "erkek" },
+      { "question": "‘Ein Apfel ist ein Apfel’ deyimi neyi ifade eder?", "options": ["Her şey aynı", "Her şey farklı", "Çok sıcak", "Çok pahalı"], "answer": "Her şey aynı" }
+    ]
+  },
+  {
+    "date": "2025-07-30",
+    "word": { "german": "die Katze", "meaning": "kedi", "example": "Die Katze schläft auf dem Sofa.", "level": "A1" },
+    "idiom": { "german": "Tomaten auf den Augen haben", "meaning": "Bir şeyi görememek", "example": "Hast du Tomaten auf den Augen?" },
+    "quiz": [
+      { "question": "‘die Katze’ ne anlama gelir?", "options": ["köpek", "kedi", "kuş", "balık"], "answer": "kedi" },
+      { "question": "‘Tomaten auf den Augen haben’ deyimi neyi ifade eder?", "options": ["Bir şeyi görememek", "Çok mutlu olmak", "Çok çalışmak", "Yorgun olmak"], "answer": "Bir şeyi görememek" }
+    ]
+  },
+  {
+    "date": "2025-07-31",
+    "word": { "german": "der Tisch", "meaning": "masa", "example": "Der Tisch ist aus Holz.", "level": "A1" },
+    "idiom": { "german": "Jemandem die Daumen drücken", "meaning": "Şans dilemek", "example": "Ich drücke dir die Daumen!" },
+    "quiz": [
+      { "question": "‘der Tisch’ ne anlama gelir?", "options": ["masa", "sandalye", "kapı", "pencere"], "answer": "masa" },
+      { "question": "‘Jemandem die Daumen drücken’ deyimi neyi ifade eder?", "options": ["Şans dilemek", "Kızmak", "Yemek yemek", "Uyumak"], "answer": "Şans dilemek" }
+    ]
+  },
+  {
+    "date": "2025-08-01",
+    "word": { "german": "das Buch", "meaning": "kitap", "example": "Ich lese ein Buch.", "level": "A1" },
+    "idiom": { "german": "Ins Gras beißen", "meaning": "Ölmek (deyimsel)", "example": "Er hat ins Gras gebissen." },
+    "quiz": [
+      { "question": "‘das Buch’ ne anlama gelir?", "options": ["kitap", "defter", "kalem", "çanta"], "answer": "kitap" },
+      { "question": "‘Ins Gras beißen’ deyimi neyi ifade eder?", "options": ["Ölmek", "Yemek yemek", "Çalışmak", "Gülmek"], "answer": "Ölmek" }
+    ]
+  },
+  {
+    "date": "2025-08-02",
+    "word": { "german": "die Straße", "meaning": "cadde, sokak", "example": "Ich gehe auf die Straße.", "level": "A1" },
+    "idiom": { "german": "Da liegt der Hund begraben", "meaning": "İşte sorun burada!", "example": "Da liegt der Hund begraben – tam olarak nedenini bu oluşturuyor." },
+    "quiz": [
+      { "question": "‘die Straße’ ne anlama gelir?", "options": ["ev", "cadde", "masa", "saat"], "answer": "cadde" },
+      { "question": "‘Da liegt der Hund begraben’ deyimi neyi ifade eder?", "options": ["Köpek çok yaşlı", "Burada bir sorun var", "Mutlu haber", "Hiçbir şey"], "answer": "Burada bir sorun var" }
+    ]
+  },
+  {
+    "date": "2025-08-03",
+    "word": { "german": "das Auto", "meaning": "araba", "example": "Das Auto fährt schnell.", "level": "A1" },
+    "idiom": { "german": "Ein Baum ist ein Baum", "meaning": "Her şey aynı", "example": "Ein Baum ist ein Baum – das ist wirklich nichts Neues." },
+    "quiz": [
+      { "question": "‘das Auto’ ne anlama gelir?", "options": ["araba", "ev", "masa", "kitap"], "answer": "araba" },
+      { "question": "‘Ein Baum ist ein Baum’ deyimi neyi ifade eder?", "options": ["Her şey aynı", "Her şey farklı", "Çok sıcak", "Çok pahalı"], "answer": "Her şey aynı" }
+    ]
+  },
+  {
+    "date": "2025-08-04",
+    "word": { "german": "die Frau", "meaning": "kadın", "example": "Die Frau ist intelligent.", "level": "A1" },
+    "idiom": { "german": "Ein Apfel ist ein Apfel", "meaning": "Her şey aynı", "example": "Ein Apfel ist ein Apfel – das ist wirklich nichts Neues." },
+    "quiz": [
+      { "question": "‘die Frau’ ne anlama gelir?", "options": ["kadın", "erkek", "kuş", "balık"], "answer": "kadın" },
+      { "question": "‘Ein Apfel ist ein Apfel’ deyimi neyi ifade eder?", "options": ["Her şey aynı", "Her şey farklı", "Çok sıcak", "Çok pahalı"], "answer": "Her şey aynı" }
+    ]
+  },
+  {
+    "date": "2025-08-05",
+    "word": { "german": "der Mann", "meaning": "erkek", "example": "Der Mann ist stark.", "level": "A1" },
+    "idiom": { "german": "Ein Apfel ist ein Apfel", "meaning": "Her şey aynı", "example": "Ein Apfel ist ein Apfel – das ist wirklich nichts Neues." },
+    "quiz": [
+      { "question": "‘der Mann’ ne anlama gelir?", "options": ["erkek", "kadın", "kuş", "balık"], "answer": "erkek" },
+      { "question": "‘Ein Apfel ist ein Apfel’ deyimi neyi ifade eder?", "options": ["Her şey aynı", "Her şey farklı", "Çok sıcak", "Çok pahalı"], "answer": "Her şey aynı" }
+    ]
+  },
+  {
+    "date": "2025-08-06",
+    "word": { "german": "die Katze", "meaning": "kedi", "example": "Die Katze schläft auf dem Sofa.", "level": "A1" },
+    "idiom": { "german": "Tomaten auf den Augen haben", "meaning": "Bir şeyi görememek", "example": "Hast du Tomaten auf den Augen?" },
+    "quiz": [
+      { "question": "‘die Katze’ ne anlama gelir?", "options": ["köpek", "kedi", "kuş", "balık"], "answer": "kedi" }
+    ]
+  }
+] 
