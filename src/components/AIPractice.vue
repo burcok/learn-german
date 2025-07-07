@@ -6,6 +6,12 @@
     <div v-if="loading" class="text-gray-400">Yükleniyor...</div>
     <div v-else-if="error" class="text-red-500">{{ error }}</div>
     <div v-else-if="result" class="mt-2 whitespace-pre-line">{{ result }}</div>
+    <div v-if="recentSentences.length > 0" class="mt-2">
+      <h3 class="text-lg font-semibold text-blue-700 dark:text-yellow-400 mb-4">Son Arananlar:</h3>
+      <div v-for="sentence in recentSentences" :key="sentence" class="mb-2">
+        <button @click="prompt = sentence" class="border-b border-gray-300 p-2 mb-2">{{ sentence }}</button>
+      </div>
+    </div>
   </div>
 </template>
 <script setup>
@@ -14,6 +20,7 @@ const prompt = ref('')
 const result = ref('')
 const loading = ref(false)
 const error = ref('')
+const recentSentences = ref(JSON.parse(localStorage.getItem('recent-sentences') || '[]'))
 
 const API_KEY = import.meta.env.VITE_API_KEY
 
@@ -35,7 +42,14 @@ async function askAI() {
       })
     })
     const data = await res.json()
-    result.value = data.choices?.[0]?.message?.content || 'Yanıt alınamadı.'
+    result.value = data.choices?.[0]?.message?.content
+
+    if (!result.value) {
+      error.value = data.error.message
+    } else {
+      localStorage.setItem('recent-sentences', JSON.stringify([...recentSentences, prompt.value]))
+    }
+
   } catch (e) {
     error.value = 'AI servisine erişilemedi.'
   } finally {
