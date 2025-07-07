@@ -3,7 +3,7 @@
     <h2 class="text-lg font-semibold text-blue-700 dark:text-yellow-400 mb-2">Cümle Analizi</h2>
     <div v-if="!analyzeIt">
       <div class="mb-2">
-        <button @click="analyzeIt = true" class="w-[200px] py-3 rounded-xl bg-blue-700 text-white font-semibold">Analiz Et</button>
+        <button @click="triggerAnalyze" class="w-[200px] py-3 rounded-xl bg-blue-700 text-white font-semibold">Analiz Et</button>
       </div>
     </div>
     <div v-if="loading && analyzeIt" class="flex flex-col gap-2 justify-center py-4">
@@ -17,7 +17,7 @@
   </div>
 </template>
 <script setup>
-import { ref, watch, onMounted, computed } from 'vue'
+import { ref, watch, onMounted, computed, nextTick } from 'vue'
 import { marked } from 'marked'
 const props = defineProps({
   sentence: String,
@@ -104,6 +104,13 @@ async function analyze() {
       loading.value = false
     }
   }
+}
+
+const triggerAnalyze = () => {
+  analyzeIt.value = false
+  nextTick(() => {
+    analyzeIt.value = true
+  })
 }
 
 watch(() => props.sentence, (val) => {
