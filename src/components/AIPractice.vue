@@ -15,7 +15,7 @@ const result = ref('')
 const loading = ref(false)
 const error = ref('')
 
-const OPENAI_API_KEY = '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'
+const API_KEY = import.meta.env.VITE_API_KEY
 
 async function askAI() {
   if (!prompt.value) return
@@ -26,7 +26,7 @@ async function askAI() {
     const res = await fetch('https://openrouter.ai/api/v1/chat/completions', {
       method: 'POST',
       headers: {
-        'Authorization': `Bearer ${OPENAI_API_KEY}`,
+        'Authorization': `Bearer ${API_KEY}`,
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
